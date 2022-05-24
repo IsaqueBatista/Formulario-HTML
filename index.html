@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Segundo Desafio</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Cadastro</legend>
+        <form action="" method="post">
+
+            <label>Nome
+                <br>
+                <input autofocus autocomplete="name" type="text" required>
+            </label>
+
+            <br>
+            <br>
+
+            <label>Email
+                <br>
+                <input autocomplete="email" type="email" required>
+            </label>
+
+            <br>
+            <br>
+
+            <label>Idade
+                <br>
+                <input autocomplete="idade" type="number" 
+                min="12" inputmode="numeric" required>
+            </label>
+
+            <br>
+            <br>
+
+            <label>Data de Nascimento
+                <br>
+                <input type="date" inputmode="numeric" required>
+            </label>
+
+            <br>
+            <br>
+
+            <label> Onde você possui conta: <br>
+                <input type="checkbox" name=Instagram> Instagram
+                <input type="checkbox" name="Facebook"> Facebook
+                <input type="checkbox" name="Youtube"> Youtube
+            </label>
+
+            <br>
+            <br>
+
+            <label> Sexo <br>
+                <input type="radio" name="radio"> Masculino
+                <input type="radio" name="radio"> Feminino
+            </label>
+
+            <br>
+            <br>
+
+            <label>Cor dos olhos <input type="color" name="cor-dos-olhos"></label>
+
+            <br>
+            <br>
+
+            <label> Biografia
+                <br>
+                <textarea cols="32" rows="4"></textarea>
+            </label>
+            <br>
+            <br>
+
+            <label> Foto do perfil <br>
+                <input type="file" name="foto" accept="image/*">
+            </label>
+            <br>
+            <br>
+
+            <label> Telefone
+                <br>
+                <input autocomplete="tel" type="tel" name="telefone">
+            </label>
+            <br>
+            <br>
+
+            <label> Link do Perfil do Facebook
+                <br>
+                <input autocomplete="url" type="url" name="url-facebook" accept="url/*">
+            </label>
+            <br>
+            <br>
+
+            <label> Senha
+                <br>
+                <input type="password" minlength="6" maxlength="8" name="senha">
+            </label>
+            <br>
+            <br>
+
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar Dados</button>
+        </form>
+    </fieldset>
+</body>
+
+</html>
